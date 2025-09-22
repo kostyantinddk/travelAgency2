@@ -1,0 +1,116 @@
+	.feedbackform {
+		max-width: 640px;
+		margin: 18px auto;
+		padding: 0 12px;
+		box-sizing: border-box;
+	}
+
+	.feedback-form {
+		background: #ffffff;
+		border: 1px solid #e3e7ea;
+		border-radius: 8px;
+		padding: 12px;
+		box-shadow: 0 3px 8px rgba(16, 24, 40, 0.04);
+		display: grid;
+		gap: 8px;
+		align-items: start;
+		font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+		font-size: 0.95rem;
+	}
+
+	.feedback-form > div {
+		display: block;
+	}
+		
+	.feedback-form label {
+		display: block;
+		font-weight: 600;
+		color: #0f1724;
+		margin-bottom: 4px;
+		font-size: 0.9rem;
+	}
+
+	.feedback-form input[type="text"],
+	.feedback-form input[type="tel"],
+	.feedback-form input[type="date"],
+	.feedback-form select,
+	.feedback-form textarea {
+		width: 100%;
+		padding: 8px 10px;
+		border: 1px solid #cbd5e1;
+		border-radius: 6px;
+		background: #fff;
+		font-size: 0.9rem;
+		color: #0b1220;
+		box-sizing: border-box;
+		transition: border-color .12s ease, box-shadow .12s ease;
+	}
+
+	.feedback-form small {
+		display: inline-block;
+		margin-top: 4px;
+		color: #475569;
+		font-size: 0.8rem;
+	}
+
+
+	
+
+	.feedback-form > div > div[style*="display:flex"] {
+		display: flex;
+		gap: 8px;
+	}
+	.feedback-form input[type="date"] {
+		padding: 6px 8px;
+	}
+
+	.feedback-form input:focus,
+	.feedback-form select:focus,
+	.feedback-form textarea:focus {
+		outline: none;
+		border-color: #2563eb;
+		box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.10);
+	}
+
+	.feedback-form input[type="checkbox"] {
+		width: 16px;
+		height: 16px;
+		vertical-align: middle;
+		margin-right: 6px;
+	}
+
+	.feedback-form button {
+		cursor: pointer;
+		padding: 8px 12px;
+		border-radius: 6px;
+		border: none;
+		font-weight: 600;
+		font-size: 0.9rem;
+	}
+
+	.feedback-form button[type="submit"] {
+		background: #0ea5e9;
+		color: #042330;
+		box-shadow: 0 4px 10px rgba(14,165,233,0.10);
+	}
+
+	.feedback-form button[type="reset"] {
+		background: #f1f5f9;
+		color: #0b1220;
+		margin-left: 6px;
+	}
+
+	.feedback-form > div:last-of-type {
+		display: flex;
+		gap: 8px;
+		align-items: center;
+		margin-top: 6px;
+	}
+	#formStatus {
+		background: #ecfeff;
+		border: 1px solid #81e6e8;
+		color: #064e54;
+		padding: 8px 10px;
+		border-radius: 6px;
+		font-size: 0.9rem;
+	}
