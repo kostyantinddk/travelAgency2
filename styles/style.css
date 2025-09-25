@@ -14,7 +14,7 @@ header h1 {
     text-align: center;
 }
 
-nav {
+header nav {
     display: flex;
     width: auto;
     justify-content: center;
@@ -22,12 +22,12 @@ nav {
     margin-top: 35px;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     list-style-type: none;
 }
 
-nav ul li a {
+header nav ul li a {
     
     text-decoration: none;
     padding: 15px;
@@ -40,7 +40,7 @@ nav ul li a {
     opacity: 0.75;
 }
 
-nav ul li a:hover {
+header ul li a:hover {
     opacity: 1;
     color: #fff;
     background-color: #2877dd;
@@ -189,3 +189,27 @@ footer {
 .footer-inner a { color: #d6f7ff; }
 .footer-inner a:hover { text-decoration: underline; }
 
+main {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    /* width: %; */
+    margin: 0;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #2877dd;
+}
+
+.sidebar-nav ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
